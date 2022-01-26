@@ -1,0 +1,103 @@
+@import url(https://fonts.googleapis.com/css?family=Quicksand:300,regular,500,600,700);
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+    align-items: center;
+}
+
+#upperContainer {
+    width: 100%;
+    height: auto;
+    position: inherit;
+    background: transparent;
+}
+
+#buttonContext {
+    display: inline-block;
+}
+
+#buttonContext>#buttonContextBtn {
+    padding: 5px 15px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    background: none;
+    border: 1px solid #28262b;
+    font-weight: 500;
+    float: right;
+}
+
+
+/* text utility */
+
+#speed_btn {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+#TextUtility {
+    width: 100%;
+    height: auto;
+    margin-top: 125px;
+}
+
+#floatingTextarea2 {
+    width: 100%;
+}
+
+#btn_hover_effect {
+    font-family: "Quicksand";
+    padding: 5px 15px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    border: 1px solid #28262b;
+    box-shadow: none;
+    float: right;
+    background: white;
+    color: black;
+}
+
+#containertexts {
+    width: 100%;
+    height: auto;
+}
+
+#btn_hover_effect:hover {
+    transform: translateY(-5px);
+    -webkit-transform: translateY(-5px);
+    -moz-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    -o-transform: translateY(-5px);
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+#footer {
+    width: 100%;
+    margin-top: 5%;
+    text-align: center;
+    align-items: center;
+}

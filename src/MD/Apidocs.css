@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#animated-button {
+    border: none;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    background: white;
+    border: 1px solid black;
+    padding: 5px 15px;
+    text-transform: none;
+    float: right;
+    margin-top: 5%;
+    color: black;
+    font-family: "Quicksand";
+}
+
+#animated-button:hover {
+    background: none;
+    border: 1px solid white;
+    color: white;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}

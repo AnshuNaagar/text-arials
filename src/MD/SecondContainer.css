@@ -1,0 +1,41 @@
+@import url(https://fonts.googleapis.com/css?family=Quicksand:300,regular,500,600,700);
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Quicksand";
+}
+
+#container-First_container {
+    position: inherit;
+}
+
+#look-btn {
+    border: 1px solid black;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    text-transform: none;
+    font-family: "Quicksand";
+    color: black;
+    background: white;
+    float: right;
+    padding: 5px 15px;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+#look-btn:hover {
+    background: black;
+    color: #fff;
+    border: none;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
